@@ -146,6 +146,8 @@ export async function getProperties({
       config.propertiesCollectionId!,
       buildQuery
     );
+
+    return result.documents;
   } catch (error) {
     console.error(error);
     return [];

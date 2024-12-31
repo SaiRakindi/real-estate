@@ -53,8 +53,6 @@ export default function Index() {
     });
   }, [params.filter, params.query]);
 
-  console.log("properties", { properties, latestProperties });
-
   return (
     <SafeAreaView className="bg-white h-full">
       {/* <Button title="Seed" onPress={seed} /> */}
